@@ -77,10 +77,11 @@ margin:auto;
  .about il,
  .skills ul,
  .interests ul{
-    list-style-type: none;
+    list-style: none;
     padding: 0;
  }
- 
+
+
 .skills{
     display: block;
     font-size: 120%;
