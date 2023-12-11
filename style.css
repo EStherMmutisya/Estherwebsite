@@ -1,14 +1,23 @@
 body{
 
     background-color:white ;
+    text-align: center;
 }
  .pic{
- width: 50%;
- height: auto;
- align-content: center;
-
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 40%;
+height: 40%;
+margin: 0 auto;
+overflow: hidden;
+}
+  .pic img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
   }
-  
 
 .header-main{
     width: 100%;
@@ -78,7 +87,10 @@ display: block;
 
 .width-33{
     display: inline-block;
-    color: yellowgreen
+    color: yellowgreen;
+    box-sizing: 33.33%;
+    padding: 10px;
+    text-align: center;
 }
 
 
