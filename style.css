@@ -1,3 +1,10 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
 body{
 
     background-color:white ;
@@ -39,6 +46,11 @@ text-decoration: none;
 font-size: 18px;
 padding: 2px 10px;
 }
+.about div{
+    width: 45%;
+    line-height: 30px;
+    font-size: 18px;
+}
 
 .about{
 display: block;
@@ -47,6 +59,27 @@ display: block;
     height: auto;
     text-align: justify;
 }
+
+.about p{
+    font-size: 1.125rem;
+line-height: 1.6;
+padding: 10px;
+width: auto;
+margin:auto;
+}
+ .about ol,
+ .skills ol,
+ .interests ol{
+    list-style: none;
+    padding: 0;
+ }
+  
+ .about il,
+ .skills ul,
+ .interests ul{
+    list-style-type: none;
+    padding: 0;
+ }
  
 .skills{
     display: block;
@@ -56,13 +89,19 @@ display: block;
     text-align: justify;
 
 }
- .projects{
-    display: block;
-    font-size: 120;
-    width: 200%
-    height: auto;
-    text-align: justify;
+.skills div{
+    width: 45%;
+    line-height: 30px;
+    font-size: 18px;
+}
 
+ .projects
+ 
+
+ .projects div{
+    width: 45%;
+    line-height: 30px;
+    font-size: 18px;
  }
  .achievements{
     font-size: 120%;
@@ -71,11 +110,27 @@ display: block;
     text-align: justify;
  }
 
- .interest{
-    font-size: 120%;
+ .achievements div{
+    width: 45%;
+    line-height: 30px;
+    font-size: 18px;
+ }
+ .interests{
+    font-size: 200%;
     width: 200%;
-    height: auto;
+    height:auto;
     text-align: justify;
+ }
+    .interests ol{
+        font-size:200%;
+
+    }
+ 
+ .interests div{
+    width: 45%;
+    line-height: 30px;
+    font-size: 18px;
+
  }
 .container{
     text-align: center;
